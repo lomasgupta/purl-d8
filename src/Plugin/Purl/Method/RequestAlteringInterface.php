@@ -22,7 +22,7 @@ interface RequestAlteringInterface
     * @param \Symfony\Component\HttpFoundation\Request $request
     * @param $identifier
     *
-    * @return \Symfony\Component\HttpFoundation\Request
+    * @return \Symfony\Component\HttpFoundation\Request|false
     * Return the request or FALSE if the request was not altered.
     *
     */
